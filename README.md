@@ -11,7 +11,7 @@
 
 - Tampilan Login
 
-![gambar](ss/ss3.png)
+![gambar](splashscreen.jpg)
 
 
 - Tampilan Register
