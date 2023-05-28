@@ -5,21 +5,18 @@
 
 
 ### Output Dari codingan:
-- Tampilan Splaschscreen
+###Tampilan Splaschscreen
 ![gambar](ss/splascreen.png)
 
 
-- Tampilan Login
-
+###Tampilan Login
 ![gambar](splashscreen.jpg)
 
 
-- Tampilan Register
+ ###Tampilan Register
+![gambar](register.jpg)
 
-![gambar](ss/ss4.png)
-
-- Tampilan Home
-
-![gambar](ss/ss4.png)
+###Tampilan Home
+![gambar](home.jpg)
 
 
