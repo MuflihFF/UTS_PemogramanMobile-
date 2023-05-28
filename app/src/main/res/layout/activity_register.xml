@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/atas"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_top"></ImageView>
+
+            <ImageView
+                android:id="@+id/ictop"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/logo"></ImageView>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atas"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="59dp"
+                android:text="Lengkapi data diri anda dibawah ini ya!"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/text"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/background_btn"
+                android:hint="Nama Lengkap"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/nomor"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/nama"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/background_btn"
+                android:hint="Nomor Telepon"
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/nomor"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/background_btn"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/email"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/background_btn"
+                android:hint="Masukan Kata Sandi"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/konfir"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="71dp"
+                android:background="@drawable/background_btn"
+                android:hint="Konfirmasi Kata Sandi"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"></EditText>
+
+
+            <Button
+                android:id="@+id/btn_daftar"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/konfir"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="71dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/btn"
+                android:onClick="daftar"
+                android:text="Register"
+                app:cornerRadius="@android:dimen/app_icon_size"></Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
