@@ -2,8 +2,8 @@
 - NIM   : 312010105
 - Kelas : TI. 20.D1
 
-### Video Demo
-![Watch the video](videodemo.m4)
+<!-- ### Video Demo
+![Watch the video](videodemo.m4) -->
 
 ### Output Dari codingan:
 ### Tampilan Splashscreen
