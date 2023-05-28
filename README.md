@@ -5,12 +5,12 @@
 
 
 ### Output Dari codingan:
-###Tampilan Splaschscreen
-![gambar](ss/splascreen.png)
+###Tampilan Splashscreen
+![gambar](splashscreen.jpg)
 
 
 ###Tampilan Login
-![gambar](splashscreen.jpg)
+![gambar](login.jpg)
 
 
  ###Tampilan Register
