@@ -5,18 +5,18 @@
 
 
 ### Output Dari codingan:
-###Tampilan Splashscreen
+### Tampilan Splashscreen
 ![gambar](splashscreen.jpg)
 
 
-###Tampilan Login
+### Tampilan Login
 ![gambar](login.jpg)
 
 
- ###Tampilan Register
+### Tampilan Register
 ![gambar](register.jpg)
 
-###Tampilan Home
+### Tampilan Home
 ![gambar](home.jpg)
 
 
